@@ -15,7 +15,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ['lib']
   gem.version       = Netsuite::VERSION
 
-  gem.add_dependency 'savon'
+  gem.add_dependency 'savon', '~> 2.8.1'
 
   gem.add_development_dependency 'rspec', '~> 3.1.0'
 end
