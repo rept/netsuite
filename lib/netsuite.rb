@@ -203,7 +203,7 @@ module NetSuite
       read_timeout  100_000
     end
 
-    self.configure(&block) if block
+    NetSuite::Configuration.instance_eval(&block) if block
   end
 
 end
