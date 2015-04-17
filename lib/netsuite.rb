@@ -28,6 +28,7 @@ module NetSuite
     autoload :SetupCustom,    'netsuite/namespaces/setup_custom'
     autoload :ListEmp,        'netsuite/namespaces/list_emp'
     autoload :ListMkt,        'netsuite/namespaces/list_mkt'
+    autoload :TranEmp,        'netsuite/namespaces/tran_emp'
   end
 
   module Support
@@ -168,6 +169,10 @@ module NetSuite
     autoload :Task,                             'netsuite/records/task'
     autoload :Term,                             'netsuite/records/term'
     autoload :Transaction,                      'netsuite/records/transaction'
+    autoload :Employee,                   'netsuite/records/employee'
+    autoload :ProjectTask,                'netsuite/records/project_task'
+    autoload :TimeBill,                   'netsuite/records/time_bill'
+    autoload :JobStatus,                  'netsuite/records/job_status'
     autoload :UnitsType,                        'netsuite/records/units_type'
     autoload :UnitsTypeUomList,                 'netsuite/records/units_type_uom_list'
     autoload :UnitsTypeUom,                     'netsuite/records/units_type_uom'
